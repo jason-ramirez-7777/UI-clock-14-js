@@ -1,0 +1,92 @@
+.roman {
+    --tail-length-hour: 16%;
+    --tail-length-minute: 10%;
+    --tail-length-second: 16%;
+}
+
+.roman #clockContainer {
+    border-radius: 50vmin;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' version='1.1'%3E%3Ccircle cx='500' cy='500' r='495' fill='none' stroke='gray' stroke-width='5'/%3E%3Ccircle cx='500' cy='500' r='465' fill='none' stroke='gray' stroke-width='5'/%3E %3Ccircle cx='500' cy='500' r='296' fill='none' stroke='gray' stroke-width='5'/%3E %3E%3Cg transform='rotate(-0.25 500 500)'%3E%3Ccircle cx='500' cy='500' r='480' fill='none' stroke='%23808080' stroke-width='30' stroke-dasharray='5,45.2654824574' /%3E%3C/g%3E %3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.roman .legendsContainer {
+    opacity: 0.5;
+    width: 0.5%;
+    height: 2.5%;
+}
+
+.roman .legends {
+    margin-top: 150%;
+}
+
+.roman .legendsContainer::after {
+    position: absolute;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15vmin;
+    transform: translateX(-50%) scaleX(0.3);
+}
+
+.roman .legendsContainer:nth-child(1)::after {
+    content: "I";
+}
+
+.roman .legendsContainer:nth-child(2)::after {
+    content: "II";
+}
+
+.roman .legendsContainer:nth-child(3)::after {
+    content: "III";
+}
+
+.roman .legendsContainer:nth-child(4)::after {
+    content: "IV";
+}
+
+.roman .legendsContainer:nth-child(5)::after {
+    content: "V";
+}
+
+.roman .legendsContainer:nth-child(6)::after {
+    content: "VI";
+}
+
+.roman .legendsContainer:nth-child(7)::after {
+    content: "VII";
+}
+
+.roman .legendsContainer:nth-child(8)::after {
+    content: "VIII";
+}
+
+.roman .legendsContainer:nth-child(9)::after {
+    content: "IX";
+}
+
+.roman .legendsContainer:nth-child(10)::after {
+    content: "X";
+}
+
+.roman .legendsContainer:nth-child(11)::after {
+    content: "XI";
+}
+
+.roman .legendsContainer:nth-child(12)::after {
+    content: "XII";
+}
+
+.roman #hour {
+    width: 3%;
+}
+
+.roman #minute {
+    height: 49%;
+    width: 2%;
+}
+
+.roman #second {
+    width: 1%;
+    height: 49.25%;
+}

@@ -1,0 +1,32 @@
+{
+    "background_color": "black",
+    "theme_color": "black",
+    "description": "Clock",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "assets/icon-maskable.png",
+            "sizes": "128x128 512x512 1024x1024",
+            "type": "image/png",
+            "purpose": "maskable",
+            "comment": "For Chrome (android)"
+        },
+        {
+            "src": "assets/icon-flat.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any",
+            "comment": "For Safari / iOS"
+        },
+        {
+            "src": "logo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any",
+            "comment": "For all without mentioning sizes"
+        }
+    ],
+    "name": "Clock",
+    "short_name": "Clock",
+    "start_url": "index.html"
+}
